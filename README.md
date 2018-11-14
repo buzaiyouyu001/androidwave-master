@@ -1,6 +1,7 @@
 # androidwave-master
 修改了原github上androidwave-master工程代码，在文件：
 androidwave-master\src\org\yuttadhammo\androidwave.java中修改如下：
+
 1、将原先MediaPlayer的创建方法：
 mp = MediaPlayer.create(AndroidWave.this,Uri.fromFile(playingFile));
 改为 mp = new MediaPlayer(); 
